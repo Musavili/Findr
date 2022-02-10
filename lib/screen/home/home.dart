@@ -4,6 +4,7 @@ import 'package:flutter_app/widget/categories.dart';
 import 'package:flutter_app/widget/recommended_house.dart';
 
 import '../../widget/custom_app_bar.dart';
+import '../../widget/custom_bottom_nav_bar.dart';
 import '../../widget/search_input.dart';
 import '../../widget/welcome_text.dart';
 
@@ -26,6 +27,7 @@ class HomePage extends StatelessWidget{
             BestOffer(),
         ],),
       ),
+      bottomNavigationBar: CustomBottomNavBar(),
     );
   }
 }
