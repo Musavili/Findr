@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/widget/circle_icon_button.dart';
 import 'package:flutter_app/model/house.dart';
 import '../model/house.dart';
-import '../screen/details/detail.dart';
+import '../screens/details/detail.dart';
 
 class RecommendedHouse extends StatelessWidget {
   //const RecommendedHouse({Key? key}) : super(key: key);

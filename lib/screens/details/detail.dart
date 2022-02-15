@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/model/house.dart';
-import 'package:flutter_app/screen/details/widget/about.dart';
-import 'package:flutter_app/screen/details/widget/button.dart';
-import 'package:flutter_app/screen/details/widget/content_intro.dart';
-import 'package:flutter_app/screen/details/widget/detail_app_bar.dart';
-import 'package:flutter_app/screen/details/widget/house_info.dart';
+import 'package:flutter_app/screens/details/widget/about.dart';
+import 'package:flutter_app/screens/details/widget/button.dart';
+import 'package:flutter_app/screens/details/widget/content_intro.dart';
+import 'package:flutter_app/screens/details/widget/detail_app_bar.dart';
+import 'package:flutter_app/screens/details/widget/house_info.dart';
 
 
 class DetailPage extends StatelessWidget {
