@@ -56,10 +56,6 @@ class _ChatScreenState extends State<ChatScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        iconTheme: Theme.of(context).iconTheme,
-        centerTitle: false,
-        backgroundColor: Colors.transparent,
-        elevation: 0,
         leadingWidth: 54,
         leading: Align(
           alignment: Alignment.centerRight,

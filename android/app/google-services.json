@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "859128004990",
+    "project_id": "findr-c3171",
+    "storage_bucket": "findr-c3171.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859128004990:android:755d1e83d39b20316bb32f",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859128004990-f6ulpgqahk923eds4cnpmns3lbnqrlto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdN8LwpkIby2db_0fdqI1fbAn15tP3vaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859128004990-f6ulpgqahk923eds4cnpmns3lbnqrlto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
