@@ -5,6 +5,7 @@ import 'package:flutter_app/screens/chat/splash_screen.dart';
 import 'package:flutter_app/theme.dart';
 import 'package:flutter_app/app.dart';
 import 'package:stream_chat_flutter_core/stream_chat_flutter_core.dart';
+import 'package:flutter_app/screens/home/home.dart';
 
 import 'screens/chat/screens.dart';
 
@@ -32,9 +33,10 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,//remove debug banner
       theme: appTheme.light,
       darkTheme: appTheme.dark,
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light,
       title: 'Chat',
       builder: (context, child){
         return StreamChatCore(
@@ -48,20 +50,24 @@ class MyApp extends StatelessWidget{
     );
   }
 
-  //@override
+  // @override
   // Widget build(Object context){
   //   return MaterialApp(
   //
   //     debugShowCheckedModeBanner: false,//remove debug banner
-  //     theme: ThemeData(
-  //       backgroundColor: Color(0xFFF5F6F6),
-  //       primaryColor: Color(0xFF811B83),
-  //       accentColor: Color(0xFFFA5019),
-  //       textTheme: TextTheme(
-  //           headline1: TextStyle(color: Color(0xFF100E34)),
-  //           bodyText1: TextStyle(color: Color(0xFF100E34).withOpacity(0.5)),
-  //       ),
-  //     ),
+  //     // theme: ThemeData(
+  //     //   backgroundColor: Color(0xFFF5F6F6),
+  //     //   primaryColor: Color(0xFF811B83),
+  //     //   accentColor: Color(0xFFFA5019),
+  //     //   textTheme: TextTheme(
+  //     //       headline1: TextStyle(color: Color(0xFF100E34)),
+  //     //       bodyText1: TextStyle(color: Color(0xFF100E34).withOpacity(0.5)),
+  //     //   ),
+  //     //
+  //     // ),
+  //       theme : appTheme.light,
+  //     darkTheme: appTheme.dark,
+  //     themeMode: ThemeMode.light,
   //     home: HomePage()
   //   );
   // }
