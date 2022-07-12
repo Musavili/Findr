@@ -5,7 +5,7 @@ Mobile application to find and rent individual rooms, houses and rental apartmen
 <p float="left">
 <img src="sreenshots/home.png" width="200" >
 <img src="screenshots/vendor.png" width="200" >
-<img src="screenshots/chat.png" width="200" >
+<img src="screenshots/chatw.png" width="200" >
 </p>
 
 ## Generating signed APK
