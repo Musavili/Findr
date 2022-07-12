@@ -1,10 +1,31 @@
-# flutter_app
+# Findr
+Mobile application to find and rent individual rooms, houses and rental apartments online.
 
-A new Flutter application.
+## Screenshots:
+<p float="left">
+<img src="sreenshots/home.png" width="200" >
+<img src="screenshots/vendor.png" width="200" >
+<img src="screenshots/chat.png" width="200" >
+</p>
 
-## Getting Started
+## Generating signed APK
+From Android Studio:
+1. ***Build*** menu
+2. ***Generate Signed APK...***
+3. Fill in the keystore information *(you only need to do this once manually and then let Android Studio remember it)*
 
-This project is a starting point for a Flutter application.
+## Maintainers
+This project is mantained by:
+* [Musavili](https://github.com/Musavili/)
+
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -m 'Add some feature')
+5. Push your branch (git push origin my-new-feature)
+6. Create a new Pull Request
 
 A few resources to get you started if this is your first Flutter project:
 
